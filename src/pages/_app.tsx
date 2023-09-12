@@ -1,6 +1,7 @@
 import "@/styles/globals.css";
 import { AppProps } from "next/app";
 import Head from "next/head";
+import Layout from "@/components/Layout";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -10,7 +11,9 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta name="description" content="t-ngtn's portfolio and blog site" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Component {...pageProps} />
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
     </>
   );
 }
