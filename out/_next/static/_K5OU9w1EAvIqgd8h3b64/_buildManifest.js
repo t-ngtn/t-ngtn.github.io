@@ -1,0 +1,21 @@
+(self.__BUILD_MANIFEST = {
+  __rewrites: { afterFiles: [], beforeFiles: [], fallback: [] },
+  "/": ["static/chunks/pages/index-dc1ea340793ab670.js"],
+  "/_error": ["static/chunks/pages/_error-54de1933a164a1ff.js"],
+  "/about": ["static/chunks/pages/about-85e22fcd6ba45406.js"],
+  "/contact": ["static/chunks/pages/contact-3dd8b9a9263d7f5e.js"],
+  "/posts": ["static/chunks/pages/posts-cbf01535fb0ca42b.js"],
+  "/posts/[id]": ["static/chunks/pages/posts/[id]-e066480234925fc6.js"],
+  "/works": ["static/chunks/pages/works-3e5a1b46df1f3593.js"],
+  sortedPages: [
+    "/",
+    "/_app",
+    "/_error",
+    "/about",
+    "/contact",
+    "/posts",
+    "/posts/[id]",
+    "/works",
+  ],
+}),
+  self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB();

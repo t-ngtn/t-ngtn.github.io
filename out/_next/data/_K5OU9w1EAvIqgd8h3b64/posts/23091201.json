@@ -1,0 +1,10 @@
+{
+  "pageProps": {
+    "post": {
+      "id": "23091201",
+      "title": "First Blog",
+      "content": "<h1>タイトル</h1>\n<h2>名前</h2>\n<p>t-ngtn</p>\n<h2>趣味</h2>\n<ul>\n<li>あ</li>\n<li>い</li>\n<li>う</li>\n</ul>\n"
+    }
+  },
+  "__N_SSG": true
+}
