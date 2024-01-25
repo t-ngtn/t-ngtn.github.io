@@ -14,15 +14,16 @@
       e.r(t),
         e.d(t, {
           default: function () {
-            return s;
+            return r;
           },
         });
       var u = e(5893);
-      function s() {
+      function r() {
         return (0, u.jsx)("div", {
-          className: "mx-auto max-w-screen-lg",
+          className: "mx-auto max-w-screen-lg px-4 md:px-6",
           children: (0, u.jsx)("h1", {
-            className: "text-7xl mt-10 font-semibold ",
+            className:
+              "text-4xl md:text-6xl mt-10 font-semibold text-center md:text-left",
             children: "Works",
           }),
         });
