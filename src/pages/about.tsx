@@ -7,15 +7,15 @@ export default function About() {
 
       <div className="flex flex-col md:flex-row">
         <div className="flex-grow">
-          <div className="flex flex-col md:flex-row text-2xl md:text-4xl mt-10">
+          <div className="flex flex-col md:flex-row text-2xl md:text-3xl mt-10">
             <p className="min-w-[150px]">Name:</p>
             <p className="ml-4 md:ml-0">Tomoya Nagatani (t-ngtn)</p>
           </div>
-          <div className="flex flex-col md:flex-row text-2xl md:text-4xl mt-10">
+          <div className="flex flex-col md:flex-row text-2xl md:text-3xl mt-10">
             <p className="min-w-[150px]">Affiliation:</p>
             <p className="ml-4 md:ml-0">The University of Tokyo</p>
           </div>
-          <div className="flex flex-col md:flex-row text-2xl md:text-4xl mt-10">
+          <div className="flex flex-col md:flex-row text-2xl md:text-3xl mt-10">
             <p className="min-w-[150px]">Major:</p>
             <div>
               <p className="ml-4 md:ml-0">Computer Science</p>
@@ -26,7 +26,7 @@ export default function About() {
               </ul>
             </div>
           </div>
-          <div className="flex flex-col md:flex-row text-2xl md:text-4xl mt-10">
+          <div className="flex flex-col md:flex-row text-2xl md:text-3xl mt-10">
             <p className="min-w-[150px]">Interest:</p>
             <p className="ml-4 md:ml-0">Low-level & Web development</p>
           </div>

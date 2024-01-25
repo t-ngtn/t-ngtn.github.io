@@ -5,11 +5,11 @@ export default function Contact() {
         Contact
       </h1>
       <div className="mt-10">
-        <div className="flex flex-row flex-nowrap text-2xl md:text-4xl">
+        <div className="flex flex-row flex-nowrap text-2xl md:text-3xl">
           <p className="min-w-[80px]">mail:</p>
           <p>ngtn.work[at]gmail.com</p>
         </div>
-        <div className="flex flex-row flex-nowrap text-2xl md:text-4xl mt-4 md:mt-8">
+        <div className="flex flex-row flex-nowrap text-2xl md:text-3xl mt-4 md:mt-8">
           <p className="min-w-[80px]">X:</p>
           <a
             className="text-indigo-500 hover:text-indigo-600 visited:text-indigo-400"

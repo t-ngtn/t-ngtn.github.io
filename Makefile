@@ -4,7 +4,7 @@ export:
 
 publish:
 	git add ./out
-	git commit -m "Export"
+	git commit -m "export"
 	git push origin main
 
 deploy:

@@ -8,6 +8,10 @@ const Header = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
   return (
     <div className="nav-container bg-gray-30 text-black p-10 flex justify-between item-top">
       <div className="logo text-left font-bold">
@@ -27,7 +31,7 @@ const Header = () => {
           >
             <div className="space-y-2 mr-0">
               <span
-                className={`block w-8 h-0.5 bg-gray-800 transform transition duration-1000 ${
+                className={`block w-8 h-0.5 bg-gray-800 transform transition duration-700 ${
                   isMenuOpen ? "rotate-45 translate-y-2" : ""
                 }`}
               ></span>
@@ -37,7 +41,7 @@ const Header = () => {
                 }`}
               ></span>
               <span
-                className={`block w-8 h-0.5 bg-gray-800 transform transition duration-300 ${
+                className={`block w-8 h-0.5 bg-gray-800 transform transition duration-700 ${
                   isMenuOpen ? "-rotate-45 -translate-y-2" : ""
                 }`}
               ></span>
@@ -50,6 +54,7 @@ const Header = () => {
               <Link
                 href="/about"
                 className="text-2xl md:text-4xl hover:text-gray-400 transition duration-200"
+                onClick={closeMenu}
               >
                 about
               </Link>
@@ -58,6 +63,7 @@ const Header = () => {
               <Link
                 href="/contact"
                 className="text-2xl md:text-4xl hover:text-gray-400 transition duration-200"
+                onClick={closeMenu}
               >
                 contact
               </Link>
