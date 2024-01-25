@@ -1,36 +1,37 @@
 (self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
   [335],
   {
-    1382: function (t, n, e) {
+    1382: function (t, e, n) {
       (window.__NEXT_P = window.__NEXT_P || []).push([
         "/contact",
         function () {
-          return e(1721);
+          return n(1721);
         },
       ]);
     },
-    1721: function (t, n, e) {
+    1721: function (t, e, n) {
       "use strict";
-      e.r(n),
-        e.d(n, {
+      n.r(e),
+        n.d(e, {
           default: function () {
-            return i;
+            return x;
           },
         });
-      var s = e(5893);
-      function i() {
+      var s = n(5893);
+      function x() {
         return (0, s.jsxs)("div", {
-          className: "mx-auto max-w-screen-lg",
+          className: "mx-auto max-w-screen-lg px-4 md:px-6",
           children: [
             (0, s.jsx)("h1", {
-              className: "text-7xl mt-10 font-semibold",
+              className:
+                "text-5xl md:text-7xl mt-10 font-semibold text-center md:text-left",
               children: "Contact",
             }),
             (0, s.jsxs)("div", {
               className: "mt-10",
               children: [
                 (0, s.jsxs)("div", {
-                  className: "flex text-3xl",
+                  className: "flex flex-row flex-nowrap text-2xl md:text-4xl",
                   children: [
                     (0, s.jsx)("p", {
                       className: "min-w-[80px]",
@@ -40,7 +41,8 @@
                   ],
                 }),
                 (0, s.jsxs)("div", {
-                  className: "flex text-3xl mt-8",
+                  className:
+                    "flex flex-row flex-nowrap text-2xl md:text-4xl mt-4 md:mt-8",
                   children: [
                     (0, s.jsx)("p", {
                       className: "min-w-[80px]",

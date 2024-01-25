@@ -1,12 +1,12 @@
 (self.__BUILD_MANIFEST = {
   __rewrites: { afterFiles: [], beforeFiles: [], fallback: [] },
-  "/": ["static/chunks/pages/index-dc1ea340793ab670.js"],
+  "/": ["static/chunks/pages/index-d144255a2a684f7e.js"],
   "/_error": ["static/chunks/pages/_error-54de1933a164a1ff.js"],
-  "/about": ["static/chunks/pages/about-5851b4b594ed8b34.js"],
-  "/contact": ["static/chunks/pages/contact-2f048efc2ad20b88.js"],
+  "/about": ["static/chunks/pages/about-b558563a3ca05856.js"],
+  "/contact": ["static/chunks/pages/contact-2f3f4a256494022e.js"],
   "/posts": ["static/chunks/pages/posts-cbf01535fb0ca42b.js"],
   "/posts/[id]": ["static/chunks/pages/posts/[id]-e066480234925fc6.js"],
-  "/works": ["static/chunks/pages/works-3e5a1b46df1f3593.js"],
+  "/works": ["static/chunks/pages/works-78665e647677792c.js"],
   sortedPages: [
     "/",
     "/_app",
