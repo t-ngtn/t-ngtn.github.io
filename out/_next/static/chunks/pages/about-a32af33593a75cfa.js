@@ -35,7 +35,7 @@
                   children: [
                     (0, t.jsxs)("div", {
                       className:
-                        "flex flex-col md:flex-row text-2xl md:text-4xl mt-10",
+                        "flex flex-col md:flex-row text-2xl md:text-3xl mt-10",
                       children: [
                         (0, t.jsx)("p", {
                           className: "min-w-[150px]",
@@ -49,7 +49,7 @@
                     }),
                     (0, t.jsxs)("div", {
                       className:
-                        "flex flex-col md:flex-row text-2xl md:text-4xl mt-10",
+                        "flex flex-col md:flex-row text-2xl md:text-3xl mt-10",
                       children: [
                         (0, t.jsx)("p", {
                           className: "min-w-[150px]",
@@ -63,7 +63,7 @@
                     }),
                     (0, t.jsxs)("div", {
                       className:
-                        "flex flex-col md:flex-row text-2xl md:text-4xl mt-10",
+                        "flex flex-col md:flex-row text-2xl md:text-3xl mt-10",
                       children: [
                         (0, t.jsx)("p", {
                           className: "min-w-[150px]",
@@ -95,7 +95,7 @@
                     }),
                     (0, t.jsxs)("div", {
                       className:
-                        "flex flex-col md:flex-row text-2xl md:text-4xl mt-10",
+                        "flex flex-col md:flex-row text-2xl md:text-3xl mt-10",
                       children: [
                         (0, t.jsx)("p", {
                           className: "min-w-[150px]",

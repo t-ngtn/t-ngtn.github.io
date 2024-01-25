@@ -580,14 +580,14 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 0.15s;
 }
-.duration-1000 {
-  transition-duration: 1s;
-}
 .duration-200 {
   transition-duration: 0.2s;
 }
 .duration-300 {
   transition-duration: 0.3s;
+}
+.duration-700 {
+  transition-duration: 0.7s;
 }
 .visited\:text-indigo-400:visited {
   color: #818cf8;
@@ -657,6 +657,10 @@ video {
   .md\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+  .md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
   .md\:text-4xl {
     font-size: 2.25rem;

@@ -132,10 +132,10 @@
             replace: _,
             shallow: N,
             scroll: O,
-            locale: E,
-            onClick: C,
-            onMouseEnter: P,
-            onTouchStart: k,
+            locale: C,
+            onClick: E,
+            onMouseEnter: k,
+            onTouchStart: P,
             legacyBehavior: T = !1,
             ...M
           } = e;
@@ -175,12 +175,12 @@
               [F, D, U, q, V],
             );
           o.default.useEffect(() => {
-            w && X && L && y(w, U, F, { locale: E }, { kind: S }, I);
-          }, [F, U, X, E, L, null == R ? void 0 : R.locale, w, I, S]);
+            w && X && L && y(w, U, F, { locale: C }, { kind: S }, I);
+          }, [F, U, X, C, L, null == R ? void 0 : R.locale, w, I, S]);
           let B = {
             ref: z,
             onClick(e) {
-              T || "function" != typeof C || C(e),
+              T || "function" != typeof E || E(e),
                 T &&
                   r.props &&
                   "function" == typeof r.props.onClick &&
@@ -222,10 +222,10 @@
                           });
                     };
                     s ? o.default.startTransition(h) : h();
-                  })(e, w, U, F, _, N, O, E, I, L);
+                  })(e, w, U, F, _, N, O, C, I, L);
             },
             onMouseEnter(e) {
-              T || "function" != typeof P || P(e),
+              T || "function" != typeof k || k(e),
                 T &&
                   r.props &&
                   "function" == typeof r.props.onMouseEnter &&
@@ -236,13 +236,13 @@
                     w,
                     U,
                     F,
-                    { locale: E, priority: !0, bypassPrefetchedCheck: !0 },
+                    { locale: C, priority: !0, bypassPrefetchedCheck: !0 },
                     { kind: S },
                     I,
                   );
             },
             onTouchStart(e) {
-              T || "function" != typeof k || k(e),
+              T || "function" != typeof P || P(e),
                 T &&
                   r.props &&
                   "function" == typeof r.props.onTouchStart &&
@@ -253,7 +253,7 @@
                     w,
                     U,
                     F,
-                    { locale: E, priority: !0, bypassPrefetchedCheck: !0 },
+                    { locale: C, priority: !0, bypassPrefetchedCheck: !0 },
                     { kind: S },
                     I,
                   );
@@ -261,7 +261,7 @@
           };
           if ((0, i.isAbsoluteUrl)(F)) B.href = F;
           else if (!T || j || ("a" === r.type && !("href" in r.props))) {
-            let e = void 0 !== E ? E : null == R ? void 0 : R.locale,
+            let e = void 0 !== C ? C : null == R ? void 0 : R.locale,
               t =
                 (null == R ? void 0 : R.isLocaleDomain) &&
                 (0, p.getDomainLocale)(
@@ -394,7 +394,10 @@
         u = n(1664),
         i = n.n(u),
         c = () => {
-          let [e, t] = (0, a.useState)(!1);
+          let [e, t] = (0, a.useState)(!1),
+            n = () => {
+              t(!1);
+            };
           return (0, r.jsxs)("div", {
             className:
               "nav-container bg-gray-30 text-black p-10 flex justify-between item-top",
@@ -424,7 +427,7 @@
                         children: [
                           (0, r.jsx)("span", {
                             className:
-                              "block w-8 h-0.5 bg-gray-800 transform transition duration-1000 ".concat(
+                              "block w-8 h-0.5 bg-gray-800 transform transition duration-700 ".concat(
                                 e ? "rotate-45 translate-y-2" : "",
                               ),
                           }),
@@ -436,7 +439,7 @@
                           }),
                           (0, r.jsx)("span", {
                             className:
-                              "block w-8 h-0.5 bg-gray-800 transform transition duration-300 ".concat(
+                              "block w-8 h-0.5 bg-gray-800 transform transition duration-700 ".concat(
                                 e ? "-rotate-45 -translate-y-2" : "",
                               ),
                           }),
@@ -459,6 +462,7 @@
                             href: "/about",
                             className:
                               "text-2xl md:text-4xl hover:text-gray-400 transition duration-200",
+                            onClick: n,
                             children: "about",
                           }),
                         }),
@@ -468,6 +472,7 @@
                             href: "/contact",
                             className:
                               "text-2xl md:text-4xl hover:text-gray-400 transition duration-200",
+                            onClick: n,
                             children: "contact",
                           }),
                         }),

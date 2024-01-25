@@ -31,7 +31,7 @@
               className: "mt-10",
               children: [
                 (0, s.jsxs)("div", {
-                  className: "flex flex-row flex-nowrap text-2xl md:text-4xl",
+                  className: "flex flex-row flex-nowrap text-2xl md:text-3xl",
                   children: [
                     (0, s.jsx)("p", {
                       className: "min-w-[80px]",
@@ -42,7 +42,7 @@
                 }),
                 (0, s.jsxs)("div", {
                   className:
-                    "flex flex-row flex-nowrap text-2xl md:text-4xl mt-4 md:mt-8",
+                    "flex flex-row flex-nowrap text-2xl md:text-3xl mt-4 md:mt-8",
                   children: [
                     (0, s.jsx)("p", {
                       className: "min-w-[80px]",
